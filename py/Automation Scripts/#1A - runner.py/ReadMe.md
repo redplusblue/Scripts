@@ -1,12 +1,12 @@
 # runner.py version 1.0 last checked 6 - May - 2022
 
 ## Functions(default): 
--Opens a .pdf file with default file opener [set for Edge]
--Executes keyboard shortcuts to read the pdf aloud for edge
+1. Opens a .pdf file with default file opener [set for Edge]
+2. Executes keyboard shortcuts to read the pdf aloud for edge
 
 ## Function(s) [Extended use]:
-=Can be used to open any weblink (eg youtube) or any other program instead of a .pdf file. 
-=Other keyboard keys can be emulated
+1. Can be used to open any weblink (eg youtube) or any other program instead of a .pdf file. 
+2. Other keyboard keys can be emulated
 
 
 # Notes: 
