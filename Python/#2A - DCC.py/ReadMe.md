@@ -13,7 +13,7 @@ It already creates `Problem for {today}.txt` which can be a coding problem to be
 Retrive problems from the web and give a problem everyday, as well as an option to get a solution if need be.
 
 ## How to use it: 
-First we set a directory path as the location where we cloned our GitHub Repository. This scriptm, on running, checks a date and creates a new folder for the set year, month and date and then in it a notepad file called `problem`. It can be used with [Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page) to create a new folder everyday at a set time. Then we must set up git bash for that directory. Once that is done, this script can commit and push the folder straight to github.
+First we set a directory path as the location where we cloned our GitHub Repository. This script, on running, checks a date and creates a new folder for the set year, month and date and then in it a notepad file called `problem`. It can be used with [Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page) to create a new folder everyday at a set time. Then we must set up git bash for that directory if there isnt one in the 'root' github directory (Usually: `C:/Users/Documents/Github`). Once that is done, this script can commit and push the folder straight to github.
 
 # Notes: 
 Must change the path in `DCC.py` and clone your GitHub Repo where you would be storing the code in the path.
