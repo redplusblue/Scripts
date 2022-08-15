@@ -2,9 +2,11 @@ import subprocess as sp
 import screen_brightness_control as sbc
 import time, art, os, psutil, sys
 
+# Lines ending with ## need to be adjusted according to the paths for the script/programs accordingly
+
 def main():
     try:
-        if os.path.exists(r"C:\Scripts\files\procID.txt"):
+        if os.path.exists(r" directory of Scripts\files\procID.txt"):
             closeAndRun()
             time.sleep(3)
             sys.exit()
@@ -24,9 +26,9 @@ def main():
         global throttleStopRun, afterBurnerRun, vibranceGUIRun
         print("-Adding file-variable indexes")
         time.sleep(delay)
-        throttleStop = r"C:\Users\samir\Documents\ThrottleStop_9.0\ThrottleStop.exe"
-        msiAfterburner = r"C:\Program Files (x86)\MSI Afterburner\MSIAfterburner.exe"
-        vibranceGUI = r"C:\Users\samir\Downloads\Programs\vibranceGUI.exe"
+        throttleStop = r"Path to ThrottleStop.exe" ##
+        msiAfterburner = r"Path to MSIAfterburner.exe" ## 
+        vibranceGUI = r"Path to vibranceGUI.exe" ##
         print("-Opening Throttlestop")
         time.sleep(delay)
         throttleStopRun = sp.Popen(throttleStop)
@@ -105,7 +107,7 @@ def closeAndRun():
             sbc.set_brightness(80, method="wmi")
         time.sleep(delay)
         print("-Changing Script path")
-        path = r"C:\Scripts"
+        path = r"scripts directory" ## 
         os.chdir(path)
         time.sleep(delay)
         print("-Reading Process IDs")
