@@ -4,8 +4,7 @@
 ## 1. Runner.py - pdf text to speech using microsoft edge
 ## 2. DCC.py - Daily coding problem pushed straight to github
 ## 3. Pre.py - Opens 3 apps, stores process IDs, decreases brightness of one monitor. Later, closes the apps, restores brightness. 
-* Pre.py - monotone only carries out the functions with not much of a status screen interface,
-* Pre.py - current contains (annoying) print statements showing the progress of the program, making it easier to debug and more convinient to use
+
 
 
 
