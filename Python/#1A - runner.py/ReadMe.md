@@ -20,5 +20,3 @@ Use windows [Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/task
 > -Being my first script ever, I wanted to name it in a way that its function would be obvious, so I called it 'runner' because it *ran*, make of it what you will.
 ----------------------------------------------------------------------------
 
-
-Samir K
