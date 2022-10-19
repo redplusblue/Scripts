@@ -8,7 +8,7 @@
   </td>
 </table>
 
-## For windows: Download the [.zip file](https://downgit.github.io/#/home?url=https://github.com/redplusblue/Scripts/blob/main/Python/%234A%20-%20lookup.py/windows/exe/lookup.zip)
+## For windows: Download the [.zip file](https://github.com/redplusblue/Scripts/blob/main/Python/%234A%20-%20lookup.py/windows/exe/lookup.zip)
 [how to download](https://sites.northwestern.edu/researchcomputing/resources/downloading-from-github/#:~:text=To%20do%20this%2C%20go%20to,likely%20in%20your%20Downloads%20folder.)
 
 ## For linux/unix-based operating systems download the [python script](https://github.com/redplusblue/Scripts/blob/main/Python/%234A%20-%20lookup.py/linux/lookup.py) 
