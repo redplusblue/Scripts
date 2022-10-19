@@ -21,6 +21,10 @@ def main():
     extension = input("Enter extension: ")
     print("Example directory: /home")
     directory = input("Enter directory: ")
+    # check if directory exists
+    if not os.path.isdir(directory):
+        print("Directory does not exist")
+        return
      
     # store the output in csv file
     print("Output file: output.csv")
