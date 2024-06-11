@@ -1,8 +1,6 @@
-# Author: Samir Kabra
 # This program can be used to read a pdf aloud using edge's read aloud features.
 
 import time
-import os
 import pyautogui as keyboard
 import webbrowser
 

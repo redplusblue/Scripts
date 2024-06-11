@@ -38,7 +38,7 @@ const func = () => {
     // SetTimeOut in 5 seconds (Function runs itself again)
     setTimeout(func, 5000);
   }
- // To start
- setTimeout(func, 1000);
-
- // ..It can :)
+  // To start
+  setTimeout(func, 1000);
+};
+// ..It can :)
